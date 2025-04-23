@@ -5,19 +5,19 @@
       line-height: 1.6;
     }
 
-    header {
+    .hero {
       background: #0e76a8;
       color: #fff;
       padding: 2rem 1rem;
       text-align: center;
     }
 
-    header h1 {
+    .hero h1 {
       margin-bottom: 0.5rem;
       font-size: 2rem;
     }
 
-    header p {
+    .hero p {
       margin-bottom: 1rem;
       font-size: 1.2rem;
     }
