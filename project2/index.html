@@ -4,7 +4,78 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product Landing Page</title>
-  <link rel="stylesheet" href="styles.css" />
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .hero {
+      background: #0e76a8;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+    }
+
+    .hero p {
+      margin-bottom: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .cta-button {
+      background: #fff;
+      color: #0e76a8;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      padding: 2rem;
+      justify-content: space-around;
+      background: #f9f9f9;
+    }
+
+    .feature {
+      flex: 1 1 300px;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .feature img {
+      width: 60%;
+      margin-bottom: .5rem;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
 </head>
 <body>
   <section class="hero">
@@ -12,16 +83,7 @@
       <p>Discover the best features of our product.</p>
       <button class="cta-button">Get Started</button>
   </section>
-  <!---
   
-  <header>
-    <h1>Welcome to Our Product</h1>
-    <p>Your all-in-one solution to manage your workflow efficiently.</p>
-    <button class="cta-button">Learn More</button>
-  </header>
-  
-  -->
-
   <section class="features">
     <div class="feature">
       <img src="https://i.postimg.cc/x8Z2J8cY/image-1.jpg" alt="Feature 1 icon">
